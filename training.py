@@ -47,10 +47,8 @@ def Results(data, target):
     axs[0].set_xlabel(f'Actual {target}')
     axs[0].set_ylabel(f'Predicted {target}')
     axs[0].plot(y_test, y_test, '--', color='gray')
-    axs[0].set_title('RF Performance : R2 = {:.2g}, MSE = {:.3g}'.format(LoLo_r2, LoLo_mse),
-                     fontsize=10, pad=15)
-    axs[0].legend([f'Test size : {len(y_test)}', f'Train size : {len(y_train)}'], markerscale=0, handlelength=0,
-                  loc='upper left')
+    axs[0].set_title('RF Performance : R2 = {:.2g}, MSE = {:.3g}'.format(LoLo_r2, LoLo_mse), fontsize=10, pad=15)
+    axs[0].legend([f'Test size : {len(y_test)}', f'Train size : {len(y_train)}'], markerscale=0, handlelength=0, loc='upper left')
 
     x = np.linspace(-6, 6, 50)
     conv_resid = np.divide(y_resid, np.sqrt(np.power(y_resid, 2).mean()))
