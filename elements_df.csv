@@ -1,0 +1,13 @@
+Composition,Nb,Ta,Ti,Mo,Hf,Zr
+NbTaTi,1,1,1,0,0,0
+MoNbTi,1,0,1,1,0,0
+HfNbTa,1,1,0,0,1,0
+NbTiZr,1,0,1,0,0,1
+HfNbTi,1,0,1,0,1,0
+HfTaTi,0,1,1,0,1,0
+TaTiZr,0,1,1,0,0,1
+MoTaTi,0,1,1,1,0,0
+MoNbTa,1,1,0,1,0,0
+HfNbTiZr,1,0,1,0,1,1
+HfMoNbTaTi,1,1,1,1,1,0
+HfNbTaTiZr,1,1,1,0,1,1
